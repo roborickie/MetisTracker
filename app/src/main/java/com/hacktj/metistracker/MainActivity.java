@@ -155,7 +155,7 @@ public class MainActivity extends AppCompatActivity {
             WebSocketFactory factory = new WebSocketFactory();
 
             try {
-                this.ws = factory.createSocket("ws://283fd9c84b36.ngrok.io", 5000);
+                this.ws = factory.createSocket("ws://477b96d1401c.ngrok.io", 5000);
 
                 final NetworkAsyncTask myself = this;
 
